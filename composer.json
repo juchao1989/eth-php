@@ -1,0 +1,20 @@
+{
+    "name": "juchao1989/eth-php",
+    "type": "library",
+    "description": "Ethereum client library in PHP",
+    "keywords": ["Ethereum", "web3", "personal","net"],
+    "homepage": "https://github.com/juchao1989/eth-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SuperJu",
+            "email": "juchao1989@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {"EthereumClient\\": "src/"}
+    }
+}
